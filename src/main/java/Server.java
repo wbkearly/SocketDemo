@@ -54,6 +54,7 @@ public class Server {
                 } catch (IOException e) {
                     System.out.println("通信出错:" + e.getMessage());
                 }
+            System.out.println("客户端[" + socket.getInetAddress() + ":" + socket.getPort() + "]已退出...");
         }
     }
 

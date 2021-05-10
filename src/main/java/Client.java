@@ -31,6 +31,7 @@ public class Client {
         } catch (IOException e) {
             System.out.println("自动关闭Socket出错:" + e.getMessage());
         }
+        System.out.println("退出连接...");
     }
 
     private static void communicate(Socket socket)  {
